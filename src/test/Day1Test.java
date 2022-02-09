@@ -11,4 +11,10 @@ public class Day1Test {
         System.out.println("hello");
     }
 
+    @Test
+    public static void secondTest(){
+        System.out.println("Bye");
+    }
+
+
 }
