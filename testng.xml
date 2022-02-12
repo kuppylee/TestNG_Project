@@ -4,21 +4,21 @@
   <test verbose="2" preserve-order="true" name="Personal Loan">
     <classes>
       <class name="test.Day1Test">
-<!--        <methods>-->
-<!--          <include name="demo"/>-->
-<!--          <include name="secondTest"/>-->
-<!--        </methods>-->
+          <methods>
+              <exclude name="demo"></exclude>
+          </methods>
       </class>
       <class name="test.Day2">
-<!--        <methods>-->
-<!--          <include name="firstTest"/>-->
-<!--        </methods>-->
       </class>
     </classes>
   </test>
     <test verbose="2" preserve-order="true" name="Car Loan">
         <classes>
-            <class name="test.Day3"></class>
+            <class name="test.Day3">
+                <methods>
+                    <exclude name="mobileLoginCarLoan"></exclude>
+                </methods>
+            </class>
         </classes>
     </test>
     <test verbose="2" preserve-order="true" name="Home Loan">
