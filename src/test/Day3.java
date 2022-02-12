@@ -16,6 +16,24 @@ public class Day3 {
         System.out.println("mobile login car ");
 
     }
+    @Test
+    public void mobileSignInCarLoan(){
+        // Appium code
+        System.out.println("mobile login car ");
+
+    }
+    @Test
+    public void mobileCheckCarLoan(){
+        // Appium code
+        System.out.println("mobile login car ");
+
+    }
+    @Test
+    public void mobileConfirmCarLoan(){
+        // Appium code
+        System.out.println("mobile login car ");
+
+    }
 
     @Test
     public void loginAPICarLoan(){

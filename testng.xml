@@ -16,14 +16,18 @@
         <classes>
             <class name="test.Day3">
                 <methods>
-                    <exclude name="mobileLoginCarLoan"></exclude>
+                    <exclude name="mobile.*"></exclude>
                 </methods>
             </class>
         </classes>
     </test>
     <test verbose="2" preserve-order="true" name="Home Loan">
         <classes>
-            <class name="test.Day4"></class>
+            <class name="test.Day4">
+                <methods>
+                    <exclude name="mobile.*"></exclude>
+                </methods>
+            </class>
         </classes>
     </test>
 
