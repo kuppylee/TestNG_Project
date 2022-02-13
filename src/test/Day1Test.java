@@ -1,11 +1,14 @@
 package test;
 
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
 public class Day1Test {
-//    public static void main(String[] args){
-//        demo();
-//    }
+    @AfterTest
+    public void lastExecution(){
+        System.out.println(" i will execute last ");
+    }
+
     @Test
     public static void demo(){
         System.out.println("hello");
