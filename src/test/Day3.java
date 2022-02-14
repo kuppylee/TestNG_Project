@@ -1,5 +1,6 @@
 package test;
 
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
 public class Day3 {
@@ -15,6 +16,10 @@ public class Day3 {
         // Appium code
         System.out.println("mobile login car ");
 
+    }
+    @BeforeSuite
+    public void suiteCheck(){
+        System.out.println("i am the number 1 ");
     }
     @Test
     public void mobileSignInCarLoan(){
