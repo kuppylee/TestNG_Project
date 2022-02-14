@@ -1,12 +1,13 @@
 package test;
 
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
 public class Day3 {
 
-    @Test
-    public void webLogiCarLoan(){
+    @Test(groups = {"smoke"})
+    public void webLoginCarLoan(){
         // selenium
         System.out.println("web login car ");
     }
@@ -32,6 +33,10 @@ public class Day3 {
         // Appium code
         System.out.println("mobile login car ");
 
+    }
+    @BeforeMethod
+    public void beforeMethod(){
+        System.out.println("it will be executing before every method in Day 3");
     }
     @Test
     public void mobileConfirmCarLoan(){

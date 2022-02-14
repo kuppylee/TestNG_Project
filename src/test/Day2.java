@@ -16,7 +16,7 @@ public class Day2 {
         System.out.println("i will execute first");
     }
 
-    @Test
+    @Test(groups = {"smoke"})
     public void firstTest(){
         System.out.println("good");
     }

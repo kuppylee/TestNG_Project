@@ -9,7 +9,7 @@ public class Day1Test {
         System.out.println(" i will execute last ");
     }
 
-    @Test
+    @Test(groups = {"smoke"})
     public static void demo(){
         System.out.println("hello");
     }
