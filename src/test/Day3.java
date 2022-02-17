@@ -12,7 +12,7 @@ public class Day3 {
         System.out.println("web login car ");
     }
 
-    @Test
+    @Test(dependsOnMethods = {"webLoginCarLoan"})
     public void mobileLoginCarLoan(){
         // Appium code
         System.out.println("mobile login car ");
@@ -22,7 +22,8 @@ public class Day3 {
     public void suiteCheck(){
         System.out.println("i am the number 1 ");
     }
-    @Test
+
+    @Test(enabled = false)
     public void mobileSignInCarLoan(){
         // Appium code
         System.out.println("mobile login car ");
@@ -38,14 +39,14 @@ public class Day3 {
     public void beforeMethod(){
         System.out.println("it will be executing before every method in Day 3");
     }
-    @Test
+    @Test(timeOut = 400)
     public void mobileConfirmCarLoan(){
         // Appium code
         System.out.println("mobile login car ");
 
     }
 
-    @Test
+    @Test(enabled = false)
     public void loginAPICarLoan(){
         // Rest API automation
         System.out.println("login API car ");
